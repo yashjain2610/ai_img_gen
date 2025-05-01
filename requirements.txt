@@ -1,0 +1,13 @@
+streamlit
+google-generativeai
+python-dotenv
+langchain
+langchain_google_genai
+langchain_community
+Pillow
+pybase64
+openpyxl
+pandas
+xlsxwriter
+openai
+google_genai
