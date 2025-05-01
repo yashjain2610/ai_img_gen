@@ -29,7 +29,7 @@ PROMPT_LIST = [
     props_img_prompt,
     hand_prompt,
 ]
-uploaded_images = st.file_uploader("Upload an image", type=["png", "jpg", "jpeg"],accept_multiple_files=True , key="up1")
+uploaded_images = st.file_uploader("Upload an image", type=["png", "jpg", "jpeg", "webp"],accept_multiple_files=True , key="up1")
 generate = st.button("generate")
 
 if "responses" not in st.session_state:
